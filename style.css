@@ -6,7 +6,7 @@ section{
   color: white;
   font-family: sans-serif;
   max-width: 500px;
-  height: 1000px;
+  height: 900px;
   box-shadow: 3px 3px 3px black;
   text-align: center;
   display: block;
@@ -24,6 +24,7 @@ h1{
     background-color: black;
     max-width: 400px;
     font-style: italic;
+    font-size: 28px;
     color: white;
     text-align: center;
     margin: auto;
