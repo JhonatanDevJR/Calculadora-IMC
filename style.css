@@ -22,6 +22,7 @@ section{
   margin-top: 20px;
 }
 h1{
+    text-shadow: 3px 2px 5px rgb(255, 255, 255);
     background-color: black;
     max-width: 400px;
     font-style: italic;
