@@ -14,8 +14,6 @@
         var ppeso= totcal-500
         var resultsec= document.getElementById('cal')
         
-            
-        
          if (IMC<18.5){
             resultsec.innerHTML=`<p>Olá ${nome}! Veja suas medidas.</p>`
             resultsec.innerHTML+=`<p><mark id="zero">Você está á <strong>BAIXO</strong> do peso</mark></p>`
