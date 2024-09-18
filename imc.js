@@ -17,7 +17,7 @@
         var ppesoM= totcalM-500
         var resultsec= document.getElementById('cal')
         
-         if (IMC<18.5 && gen=== 'fem'){ 
+        if (IMC<18.5 && gen=== 'fem'){ 
             resultsec.innerHTML=`<p>Olá ${nome}! Veja suas medidas.</p>`
             resultsec.innerHTML+=`<p><mark id="zero">Você está á <strong>BAIXO</strong> do peso</mark></p>`
             resultsec.innerHTML+=`<p>Seu IMC é de: <strong><mark>${IMC.toFixed(2)}</mark></strong></p>`
@@ -27,7 +27,7 @@
             resultsec.innerHTML+=`<p>Caso você queira ganhar peso, é necessário consumir por dia: <strong><mark>${gpeso.toFixed(2)}</mark></strong> kcal.</p>`
             resultsec.innerHTML+=`<p>Caso você queira perder peso, é necessário consumir por dia: <strong><mark>${ppeso.toFixed(2)}</mark></strong> kcal.</p>`
 
-         } else if (IMC<18.5 && gen==='mas'){ //////////////////////////////
+         } else if (IMC<18.5 && gen==='mas'){ 
             resultsec.innerHTML=`<p>Olá ${nome}! Veja suas medidas.</p>`
             resultsec.innerHTML+=`<p><mark id="zero">Você está á <strong>BAIXO</strong> do peso</mark></p>`
             resultsec.innerHTML+=`<p>Seu IMC é de: <strong><mark>${IMC.toFixed(2)}</mark></strong></p>`
@@ -37,7 +37,7 @@
             resultsec.innerHTML+=`<p>Caso você queira ganhar peso, é necessário consumir por dia: <strong><mark>${gpesoM.toFixed(2)}</mark></strong> kcal.</p>`
             resultsec.innerHTML+=`<p>Caso você queira perder peso, é necessário consumir por dia: <strong><mark>${ppesoM.toFixed(2)}</mark></strong> kcal.</p>`
             
-         }if (IMC>= 18.5 && IMC<=24.9 && gen=== 'fem'){
+        }if (IMC>= 18.5 && IMC<=24.9 && gen=== 'fem'){
             resultsec.innerHTML=`<p>Olá ${nome}! Veja suas medidas.</p>`
             resultsec.innerHTML+=`<p><mark id="um">Você está no peso <strong>IDEAL</strong>.</mark></p>`
             resultsec.innerHTML+=`<p>Seu IMC é de: <strong><mark>${IMC.toFixed(2)}</mark></strong></p>`
@@ -48,7 +48,7 @@
             resultsec.innerHTML+=`<p>Caso você queira perder peso, é necessário consumir por dia: <strong><mark>${ppeso.toFixed(2)}</mark></strong> kcal.</p>`
             //resultsec.style.background.p=''
 
-        } else if (IMC>= 18.5 && IMC<=24.9 && gen=== 'mas'){ 
+         } else if (IMC>= 18.5 && IMC<=24.9 && gen=== 'mas'){ 
             resultsec.innerHTML=`<p>Olá ${nome}! Veja suas medidas.</p>`
             resultsec.innerHTML+=`<p><mark id="um">Você está no peso <strong>IDEAL</strong>.</mark></p>`
             resultsec.innerHTML+=`<p>Seu IMC é de: <strong><mark>${IMC.toFixed(2)}</mark></strong></p>`
@@ -69,7 +69,7 @@
             resultsec.innerHTML+=`<p>Caso você queira perder peso, é necessário consumir por dia: <strong><mark>${ppeso.toFixed(2)}</mark></strong> kcal.</p>`
             //resultsec.style.background=''
             
-        } else if (IMC>= 25 && IMC<=29.9 && gen==='mas'){ 
+         } else if (IMC>= 25 && IMC<=29.9 && gen==='mas'){ 
             resultsec.innerHTML=`<p>Olá ${nome}! Veja suas medidas.</p>`
             resultsec.innerHTML+=`<p><mark id="dois">Você está em <strong>SOBREPESO</strong>!</mark></p>`
             resultsec.innerHTML+=`<p>Seu IMC é de: <strong><mark>${IMC.toFixed(2)}</mark></strong></p>`
@@ -90,7 +90,7 @@
             resultsec.innerHTML+=`<p>Caso você queira perder peso, é necessário consumir por dia: <strong><mark>${ppeso.toFixed(2)}</mark></strong> kcal.</p>`
             //resultsec.style.background=''
 
-        } else if (IMC>30 && IMC<34.9 && gen==='mas'){ 
+         } else if (IMC>30 && IMC<34.9 && gen==='mas'){ 
             resultsec.innerHTML=`<p>Olá ${nome}! Veja suas medidas.</p>`
             resultsec.innerHTML+=`<p>Seu IMC é de: <strong><mark>${IMC.toFixed(2)}</mark></strong></p>`
             resultsec.innerHTML+=`<p><mark class="três">Você está com <strong>OBESIDADE GRAU 1</strong>, se CUIDE!</mark></p>`
@@ -100,7 +100,7 @@
             resultsec.innerHTML+=`<p>Caso você queira ganhar peso, é necessário consumir por dia: <strong><mark>${gpesoM.toFixed(2)}</mark></strong> kcal.</p>`
             resultsec.innerHTML+=`<p>Caso você queira perder peso, é necessário consumir por dia: <strong><mark>${ppesoM.toFixed(2)}</mark></strong> kcal.</p>`
 
-        } if( IMC> 35 && gen==='fem') {
+        } if( IMC> 35 && gen==='fem'){
             resultsec.innerHTML=`<p>Olá ${nome}! Veja suas medidas.</p>`
             resultsec.innerHTML+=`<p>Seu IMC é de: <strong><mark>${IMC.toFixed(2)}</mark></strong></p>`
             resultsec.innerHTML+=`<p><mark class="três">Você está com <strong>OBESIDADE GRAU 2</strong>, se CUIDE!</mark></p>`
@@ -111,7 +111,7 @@
             resultsec.innerHTML+=`<p>Caso você queira perder peso, é necessário consumir por dia: <strong><mark>${ppeso.toFixed(2)}</mark></strong> kcal.</p>`
             //resultsec.style.background+=''
 
-        } else if (IMC> 35 && gen==='mas'){ 
+         } else if (IMC> 35 && gen==='mas'){ 
             resultsec.innerHTML=`<p>Olá ${nome}! Veja suas medidas.</p>`
             resultsec.innerHTML+=`<p>Seu IMC é de: <strong><mark>${IMC.toFixed(2)}</mark></strong></p>`
             resultsec.innerHTML+=`<p><mark class="três">Você está com <strong>OBESIDADE GRAU 2</strong>, se CUIDE!</mark></p>`
