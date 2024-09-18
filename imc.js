@@ -20,7 +20,7 @@
             resultsec.innerHTML+=`<p>Seu IMC é de: <strong><mark>${IMC.toFixed(2)}</mark></strong></p>`
             resultsec.innerHTML+=`<p>Se você for <strong>Mulher</strong>, sua taxa metabólica basal é de: <strong><mark>${tmbF.toFixed(2)}</mark></strong></p>`
             resultsec.innerHTML+=`<p>Se você for <strong>Homem</strong>, sua taxa metabólica basal é de: <strong><mark>${tmbM.toFixed(2)}</mark></strong></p>`
-            resultsec.innerHTML+=`<p id="feel">(Infelizmente precisei fazer dessa forma :()</p>`
+            resultsec.innerHTML+=`<p id="feel">(Infelizmente precisei fazer dessa forma)</p>`
             resultsec.innerHTML+= `<p>Você precisa ingerir diariamente: <strong><mark>${agua}</mark></strong> ml de água 💧.</p>`
             resultsec.innerHTML+=`<p>Com base no seu nível de atividade física, sua necessidade calórica é de: <strong><mark>${totcal.toFixed(2)}</mark></strong> calorias por dia.</p>`
             resultsec.innerHTML+=`<p>Caso você queira ganhar peso, é necessário consumir por dia: <strong><mark>${gpeso.toFixed(2)}</mark></strong> kcal.</p>`
@@ -34,7 +34,7 @@
             resultsec.innerHTML+=`<p>Seu IMC é de: <strong><mark>${IMC.toFixed(2)}</mark></strong></p>`
             resultsec.innerHTML+=`<p>Se você for <strong>Mulher</strong>, sua taxa metabólica basal é de: <strong><mark>${tmbF.toFixed(2)}</mark></strong></p>`
             resultsec.innerHTML+=`<p>Se você for <strong>Homem</strong>, sua taxa metabólica basal é de: <strong><mark>${tmbM.toFixed(2)}</mark></strong></p>`
-            resultsec.innerHTML+=`<p>(Infelizmente precisei fazer dessa forma :()</p>`
+            resultsec.innerHTML+=`<p>(Infelizmente precisei fazer dessa forma)</p>`
             resultsec.innerHTML+= `<p>Você precisa ingerir diariamente: <strong><mark>${agua}</mark></strong> ml de água 💧.</p>`
             resultsec.innerHTML+=`<p>Com base no seu nível de atividade física, sua necessidade calórica é de: <strong><mark>${totcal.toFixed(2)}</mark></strong> calorias por dia.</p>`
             resultsec.innerHTML+=`<p>Caso você queira ganhar peso, é necessário consumir por dia: <strong><mark>${gpeso.toFixed(2)}</mark></strong>kcal.</p>`
@@ -47,7 +47,7 @@
             resultsec.innerHTML+=`<p>Seu IMC é de: <strong><mark>${IMC.toFixed(2)}</mark></strong></p>`
             resultsec.innerHTML+=`<p>Se você for <strong>Mulher</strong>, sua taxa metabólica basal é de: <strong><mark>${tmbF.toFixed(2)}</mark></strong></p>`
             resultsec.innerHTML+=`<p>Se você for <strong>Homem</strong>, sua taxa metabólica basal é de: <strong><mark>${tmbM.toFixed(2)}</mark></strong></p>`
-            resultsec.innerHTML+=`<p>(Infelizmente precisei fazer dessa forma :()</p>`
+            resultsec.innerHTML+=`<p>(Infelizmente precisei fazer dessa forma)</p>`
             resultsec.innerHTML+= `<p>Você precisa ingerir diariamente: <strong><mark>${agua}</mark></strong> ml de água 💧.</p>`
             resultsec.innerHTML+=`<p>Com base no seu nível de atividade física, sua necessidade calórica é de: <strong><mark>${totcal.toFixed(2)}</mark></strong> calorias por dia.</p>`
             resultsec.innerHTML+=`<p>Caso você queira ganhar peso, é necessário consumir por dia: <strong><mark>${gpeso.toFixed(2)}</mark></strong>kcal.</p>`
@@ -60,7 +60,7 @@
             resultsec.innerHTML+=`<p>Seu IMC é de: <strong><mark>${IMC.toFixed(2)}</mark></strong></p>`
             resultsec.innerHTML+=`<p>Se você for <strong>Mulher</strong>, sua taxa metabólica basal é de: <strong><mark>${tmbF.toFixed(2)}</mark></strong></p>`
             resultsec.innerHTML+=`<p>Se você for <strong>Homem</strong>, sua taxa metabólica basal é de: <strong><mark>${tmbM.toFixed(2)}</mark></strong></p>`
-            resultsec.innerHTML+=`<p>(Infelizmente precisei fazer dessa forma :()</p>`
+            resultsec.innerHTML+=`<p>(Infelizmente precisei fazer dessa forma)</p>`
             resultsec.innerHTML+= `<p>Você precisa ingerir diariamente: <strong><mark>${agua}</mark></strong> ml de água 💧.</p>`
             resultsec.innerHTML+=`<p><mark class="três">Você está com <strong>OBESIDADE GRAU 1</strong>!</mark></p>`
             resultsec.innerHTML+=`<p>Com base no seu nível de atividade física, sua necessidade calórica é de: <strong><mark>${totcal.toFixed(2)}</mark></strong> calorias por dia.</p>`
@@ -73,7 +73,7 @@
             resultsec.innerHTML+=`<p>Seu IMC é de: <strong><mark>${IMC.toFixed(2)}</mark></strong></p>`
             resultsec.innerHTML+=`<p>Se você for <strong>Mulher</strong>, sua taxa metabólica basal é de: <strong><mark>${tmbF.toFixed(2)}</mark></strong></p>`
             resultsec.innerHTML+=`<p>Se você for <strong>Homem</strong>, sua taxa metabólica basal é de: <strong><mark>${tmbM.toFixed(2)}</mark></strong></p>`
-            resultsec.innerHTML+=`<p>(Infelizmente precisei fazer dessa forma :()</p>`
+            resultsec.innerHTML+=`<p>(Infelizmente precisei fazer dessa forma)</p>`
             resultsec.innerHTML+= `<p>Você precisa ingerir diariamente: <strong><mark>${agua}</mark></strong> ml de água 💧.</p>`
             resultsec.innerHTML+=`<p><mark class="três">Você está com <strong>OBESIDADE GRAU 2</strong>, se CUIDE!</mark></p>`
             resultsec.innerHTML+=`<p>Com base no seu nível de atividade física, sua necessidade calórica é de: <strong><mark>${totcal.toFixed(2)}</mark></strong> calorias por dia.</p>`
